@@ -43,7 +43,7 @@ $this->assertInstanceOf('JomWeb\Calculator', $this->calc);
 
 public function testInvalidArgumentIsProperlyThrown()
 {
- $this->calc->add('A', 2);
+ $this->calc->add(3, 2);
 
 }
 
