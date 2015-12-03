@@ -6,12 +6,12 @@ php:
 
 before_script:
   - pwd
-  - ll 
+  - ls 
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install
   - pwd
 
 script: 
   - pwd
-  - ll
+  - ls
   - phpunit
